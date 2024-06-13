@@ -30,7 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000', 'localhost',
-                 '8000-wlia-code-codeinstitute--j04506lr4h.us1.codeanyapp.com']
+                 '8000-wlia-code-codeinstitute--j04506lr4h.us1.codeanyapp.com',
+                 '8000-wliacode-codeinstituteb-9veonrniohy.ws.codeinstitute-ide.net']
 
 CSRF_TRUSTED_ORIGINS = [
 
